@@ -3,7 +3,7 @@ import { GET_FETCH_REQUEST, GET_FETCH_SUCCESS, GET_FETCH_ERROR } from '../action
 const initialState = {
   isLoading: false,
   error: '',
-  books: []
+  users: []
 }
 
 export function reducer(state = initialState, action) {
